@@ -1,0 +1,14 @@
+{
+  "name": "train-cert-platform",
+  "version": "1.0.0",
+  "description": "培训签到证书平台：课次签到、测验结业、补签补发、证书状态链可追溯",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "init-db": "node server/initDb.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  }
+}
